@@ -99,4 +99,5 @@ The objective of this project is to analyze and visualize bank loan data to moni
     This project analyzes bank loan performance using SQL-driven KPIs and interactive dashboards to evaluate portfolio health, borrower risk, and lending trends, enabling data-driven credit and        growth decisions.
 
 ## Author & Contact
+    Pratik Khobragade
     Email:Pratikkhobragde448@gmail.com
