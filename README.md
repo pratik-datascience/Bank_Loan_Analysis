@@ -101,3 +101,5 @@ The objective of this project is to analyze and visualize bank loan data to moni
 ## Author & Contact
     Pratik Khobragade
     Email:Pratikkhobragde448@gmail.com
+    linkdin: www.linkedin.com/in/pratik-khobragade-722227319
+
