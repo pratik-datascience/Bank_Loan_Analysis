@@ -1,0 +1,6 @@
+Excel >= 2019
+SQL (ANSI SQL)
+Relational Database Management System (SQL Server / MySQL / PostgreSQL)
+Data Cleaning & Transformation
+KPI Calculation (MTD, PMTD, MoM)
+Dashboard & Data Visualization
