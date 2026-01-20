@@ -128,4 +128,5 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 Data Analyst | Python | SQL | Power BI  
 
 📧 Email: pratikkhobragade484@gmail.com  
-🔗 LinkedIn & GitHub linked in profile
+[linkedIn](www.linkedin.com/in/pratik-khobragade-722227319)
+
