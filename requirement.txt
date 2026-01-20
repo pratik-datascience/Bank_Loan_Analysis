@@ -1,6 +1,7 @@
-Excel >= 2019
-SQL (ANSI SQL)
-Relational Database Management System (SQL Server / MySQL / PostgreSQL)
-Data Cleaning & Transformation
-KPI Calculation (MTD, PMTD, MoM)
-Dashboard & Data Visualization
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.1.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0
+ipykernel>=6.25.0
