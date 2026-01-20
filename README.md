@@ -1,105 +1,129 @@
-# Bank_Loan_Report
-## Project Objective
+# 📊 Bank Loan Report | Data Analytics Project
 
-The objective of this project is to analyze and visualize bank loan data to monitor lending performance, assess loan portfolio health, and identify key trends. By using SQL for data extraction and Excel for interactive dashboards, the project provides actionable insights into loan applications, funded amounts, repayments, borrower risk (DTI), and loan quality (Good vs Bad Loans) to support data-driven decision-making.
+## 📌 Problem Statement
+In order to monitor and assess the bank's lending activities and performance, this project delivers a **comprehensive Bank Loan Report**.  
+The objective is to analyze key loan metrics, track trends over time, evaluate portfolio health, and support **data-driven lending decisions**.
 
+---
 
-## Dataset Used
-- <a href="https://github.com/pratik-datascience/Bank_Loan_Report_2024/blob/main/BANK%20LOAN%20DATA.xlsx">Dataset</a>
+## 🎯 Business Objectives
+- Monitor loan application trends
+- Analyze funded vs received amounts
+- Assess borrower risk using DTI and loan status
+- Distinguish between Good Loans and Bad Loans
+- Enable strategic decision-making using dashboards
 
-## 📊 Key Performance Indicators (KPIs)
-🔹 Lending Performance KPIs
+---
 
-    Total Loan Applications – Total number of loan applications received during the selected period.
-    
-    MTD Loan Applications – Loan applications received from the beginning of the current month.
-    
-    PMTD Loan Applications – Loan applications received from the start of the previous month up to the same date.
-    
-    Total Funded Amount – Total loan amount disbursed to borrowers.
-    
-    MTD Funded Amount – Loan amount disbursed in the current month.
-    
-    PMTD Funded Amount – Loan amount disbursed in the previous month up to the same date.
-    
-    Total Amount Received – Total repayments collected from borrowers.
-    
-    PMTD Amount Received – Repayments collected in the previous month up to the same date.
-    
-    MTD Amount Received – Repayments collected in the current month.
+## 📈 Dashboard 1: Summary (KPIs)
 
-🔹 Risk & Profitability KPIs
-    
-    Average Interest Rate – Average interest rate across all loans.
-    
-    MTD Average Interest Rate – Average interest rate for loans issued in the current month.
-    
-    PMTD Average Interest Rate – Average interest rate for loans issued in the previous month up to the same date.
-    
-    MoM Interest Rate Change (%) – Month-over-Month change in average interest rate.
-    
-    Average Debt-to-Income (DTI) Ratio – Measures borrower repayment capacity.
-    
-    MTD Average DTI – Average DTI for loans issued in the current month
-    
-    PMTD Average DTI – Average DTI for loans issued in the previous month up to the same date.
-    
-    MoM DTI Change (%) – Month-over-Month variation in borrower DTI.
+### Key Performance Indicators
+- **Total Loan Applications**
+- **MTD Loan Applications**
+- **MoM Loan Application Growth**
+- **Total Funded Amount**
+- **MTD Funded Amount**
+- **Total Amount Received**
+- **Average Interest Rate**
+- **Average Debt-to-Income Ratio (DTI)**
 
-🔹 Good Loan vs Bad Loan KPIs
+---
 
-    Good Loans (Status: Fully Paid, Current)
-    
-    Good Loan Application Percentage
-    
-    Good Loan Applications
-    
-    Good Loan Funded Amount
-    
-    Good Loan Amount Received
-    
-    Bad Loans (Status: Charged Off)
-    
-    Bad Loan Application Percentage
-    
-    Bad Loan Applications
-    
-    Bad Loan Funded Amount
-    
-    Bad Loan Amount Received
+## ✅ Good Loan vs ❌ Bad Loan Analysis
 
-🔹 Monthly Trends – Applications, Funded Amount, Amount Received
+### Good Loans
+- Loan Status: `Fully Paid`, `Current`
+- KPIs:
+  - Good Loan Application %
+  - Good Loan Funded Amount
+  - Good Loan Amount Received
 
-    State-wise Loan Distribution
-    
-    Loan Metrics by Term
-    
-    Loan Metrics by Employment Length
-    
-    Loan Metrics by Loan Purpose
-    
-    Loan Metrics by Home Ownership
-    
-- Dashboard Interaction <a href="https://github.com/pratik-datascience/Bank_Loan_Report_2024/blob/main/BANK%20LOAN%20DATA.xlsx">View Dashboard</a>
+### Bad Loans
+- Loan Status: `Charged Off`
+- KPIs:
+  - Bad Loan Application %
+  - Bad Loan Funded Amount
+  - Bad Loan Amount Received
 
+---
 
-🔄 Project Workflow
+## 📊 Loan Status Grid View
+A detailed table segmented by **Loan Status** displaying:
+- Total Applications
+- Total Funded Amount
+- Total Amount Received
+- MTD Funded Amount
+- MTD Amount Received
+- Average Interest Rate
+- Average DTI
 
-    Analyzed and cleaned bank loan data for accuracy and consistency.
-    
-    Defined business KPIs including MTD, PMTD, and MoM metrics.
-    
-    Used SQL to calculate loan performance, risk, and repayment KPIs.
-    
-    Built interactive Excel dashboards for summary, overview, and detailed analysis.
-    
-    Validated insights and documented results for portfolio presentation.
+---
 
-## Final Recommendation
-    This project analyzes bank loan performance using SQL-driven KPIs and interactive dashboards to evaluate portfolio health, borrower risk, and lending trends, enabling data-driven credit and        growth decisions.
+## 📉 Dashboard 2: Overview (Visual Analytics)
 
-## Author & Contact
-    Pratik Khobragade
-    Email:Pratikkhobragde448@gmail.com
-    linkdin: www.linkedin.com/in/pratik-khobragade-722227319
+### Visualizations Used
+1. **Monthly Trends (Line Chart)**  
+   - Loan Applications
+   - Funded Amount
+   - Amount Received
 
+2. **Regional Analysis (Filled Map)**  
+   - Metrics by State
+
+3. **Loan Term Analysis (Donut Chart)**  
+   - 36 Months vs 60 Months
+
+4. **Employee Length Analysis (Bar Chart)**
+
+5. **Loan Purpose Breakdown (Bar Chart)**
+
+6. **Home Ownership Analysis (Tree Map)**
+
+---
+
+## 📋 Dashboard 3: Details
+A comprehensive table containing:
+- Borrower details
+- Loan attributes
+- Performance metrics
+- Status-based insights
+
+---
+
+## 🧰 Tools & Technologies
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Power BI**
+- **Excel**
+- **GitHub**
+
+---
+
+## 📸 Dashboard Screenshots
+| Summary | Overview | Details |
+|-------|---------|--------|
+| ![](dashboards/dashboard_screenshots/dashboard_summary.png) | ![](dashboards/dashboard_screenshots/dashboard_overview.png) | ![](dashboards/dashboard_screenshots/dashboard_details.png) |
+
+---
+
+## 🚀 Key Insights
+- Majority of loans fall under **Good Loan category**
+- Charged-off loans contribute significantly less to total received amount
+- Employment length and home ownership impact approval trends
+- Loan demand shows strong monthly seasonality
+
+---
+
+## 📂 How to Use This Repository
+1. Clone the repository
+2. Install dependencies using `requirements.txt`
+3. Run Python analysis script or notebook
+4. View Power BI dashboards via screenshots
+
+---
+
+## 👤 Author
+**Pratik Khobragade**  
+Data Analyst | Python | SQL | Power BI  
+
+📧 Email: pratikkhobragade484@gmail.com  
+🔗 LinkedIn & GitHub linked in profile
