@@ -1,4 +1,4 @@
-# 📊 Bank Loan Report | Data Analytics Project
+# Bank Loan Report | Data Analytics Project
 
 ##  Problem Statement
 In order to monitor and assess the bank's lending activities and performance, this project delivers a **comprehensive Bank Loan Report**.  
@@ -7,25 +7,25 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 ---
 
 ##  Business Objectives
-- Monitor loan application trends
-- Analyze funded vs received amounts
-- Assess borrower risk using DTI and loan status
-- Distinguish between Good Loans and Bad Loans
-- Enable strategic decision-making using dashboards
+    - Monitor loan application trends
+    - Analyze funded vs received amounts
+    - Assess borrower risk using DTI and loan status
+    - Distinguish between Good Loans and Bad Loans
+    - Enable strategic decision-making using dashboards
 
 ---
 
 ##  Dashboard 1: Summary (KPIs)
 
 ### Key Performance Indicators
-- **Total Loan Applications**
-- **MTD Loan Applications**
-- **MoM Loan Application Growth**
-- **Total Funded Amount**
-- **MTD Funded Amount**
-- **Total Amount Received**
-- **Average Interest Rate**
-- **Average Debt-to-Income Ratio (DTI)**
+    - Total Loan Applications
+    - MTD Loan Applications
+    - MoM Loan Application Growth
+    - Total Funded Amount
+    - MTD Funded Amount
+    - Total Amount Received
+    - Average Interest Rate
+    - Average Debt-to-Income Ratio (DTI)
 
 ---
 
@@ -48,14 +48,14 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 ---
 
 ##  Loan Status Grid View
-A detailed table segmented by **Loan Status** displaying:
-- Total Applications
-- Total Funded Amount
-- Total Amount Received
-- MTD Funded Amount
-- MTD Amount Received
-- Average Interest Rate
-- Average DTI
+    A detailed table segmented by **Loan Status** displaying:
+    - Total Applications
+    - Total Funded Amount
+    - Total Amount Received
+    - MTD Funded Amount
+    - MTD Amount Received
+    - Average Interest Rate
+    - Average DTI
 
 ---
 
@@ -81,7 +81,7 @@ A detailed table segmented by **Loan Status** displaying:
 
 ---
 
-## 📋 Dashboard 3: Details
+## Dashboard 3: Details
     A comprehensive table containing:
     - Borrower details
     - Loan attributes
@@ -90,7 +90,7 @@ A detailed table segmented by **Loan Status** displaying:
 
 ---
 
-##  Tools & Technologies
+## Tools & Technologies
     - Python (Pandas, NumPy, Matplotlib, Seaborn)
     - Power BI
     - Excel
@@ -106,18 +106,18 @@ A detailed table segmented by **Loan Status** displaying:
 ---
 
 ##  Key Insights
-- Majority of loans fall under **Good Loan category**
-- Charged-off loans contribute significantly less to total received amount
-- Employment length and home ownership impact approval trends
-- Loan demand shows strong monthly seasonality
+    - Majority of loans fall under **Good Loan category**
+    - Charged-off loans contribute significantly less to total received amount
+    - Employment length and home ownership impact approval trends
+    - Loan demand shows strong monthly seasonality
 
 ---
 
 ##  How to Use This Repository
-1. Clone the repository
-2. Install dependencies using `requirements.txt`
-3. Run Python analysis script or notebook
-4. View Power BI dashboards via screenshots
+    1. Clone the repository
+    2. Install dependencies using `requirements.txt`
+    3. Run Python analysis script or notebook
+    4. View Power BI dashboards via screenshots
 
 ---
 
