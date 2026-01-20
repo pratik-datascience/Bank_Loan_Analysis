@@ -1,12 +1,12 @@
 # 📊 Bank Loan Report | Data Analytics Project
 
-## 📌 Problem Statement
+##  Problem Statement
 In order to monitor and assess the bank's lending activities and performance, this project delivers a **comprehensive Bank Loan Report**.  
 The objective is to analyze key loan metrics, track trends over time, evaluate portfolio health, and support **data-driven lending decisions**.
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 - Monitor loan application trends
 - Analyze funded vs received amounts
 - Assess borrower risk using DTI and loan status
@@ -15,7 +15,7 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 
 ---
 
-## 📈 Dashboard 1: Summary (KPIs)
+##  Dashboard 1: Summary (KPIs)
 
 ### Key Performance Indicators
 - **Total Loan Applications**
@@ -29,7 +29,7 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 
 ---
 
-## ✅ Good Loan vs ❌ Bad Loan Analysis
+##  Good Loan VS Bad Loan Analysis
 
 ### Good Loans
     - Loan Status: `Fully Paid`, `Current`
@@ -47,7 +47,7 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 
 ---
 
-## 📊 Loan Status Grid View
+##  Loan Status Grid View
 A detailed table segmented by **Loan Status** displaying:
 - Total Applications
 - Total Funded Amount
@@ -59,7 +59,7 @@ A detailed table segmented by **Loan Status** displaying:
 
 ---
 
-## 📉 Dashboard 2: Overview (Visual Analytics)
+##  Dashboard 2: Overview (Visual Analytics)
 
 ### Visualizations Used
     1. **Monthly Trends (Line Chart)**  
@@ -82,30 +82,30 @@ A detailed table segmented by **Loan Status** displaying:
 ---
 
 ## 📋 Dashboard 3: Details
-A comprehensive table containing:
-- Borrower details
-- Loan attributes
-- Performance metrics
-- Status-based insights
+    A comprehensive table containing:
+    - Borrower details
+    - Loan attributes
+    - Performance metrics
+    - Status-based insights
 
 ---
 
-## 🧰 Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **Power BI**
-- **Excel**
-- **GitHub**
+##  Tools & Technologies
+    - Python (Pandas, NumPy, Matplotlib, Seaborn)
+    - Power BI
+    - Excel
+    - GitHub
 
 ---
 
-## 📸 Dashboard Screenshots
+##  Dashboard Screenshots
 | Summary | Overview | Details |
 |-------|---------|--------|
 | ![](dashboards/dashboard_screenshots/dashboard_summary.png) | ![](dashboards/dashboard_screenshots/dashboard_overview.png) | ![](dashboards/dashboard_screenshots/dashboard_details.png) |
 
 ---
 
-## 🚀 Key Insights
+##  Key Insights
 - Majority of loans fall under **Good Loan category**
 - Charged-off loans contribute significantly less to total received amount
 - Employment length and home ownership impact approval trends
@@ -113,7 +113,7 @@ A comprehensive table containing:
 
 ---
 
-## 📂 How to Use This Repository
+##  How to Use This Repository
 1. Clone the repository
 2. Install dependencies using `requirements.txt`
 3. Run Python analysis script or notebook
@@ -121,7 +121,7 @@ A comprehensive table containing:
 
 ---
 
-## 👤 Author
+##  Author
 **Pratik Khobragade**  
 Data Analyst | Python | SQL | Power BI  
 
