@@ -62,22 +62,22 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 ##  Dashboard 2: Overview (Visual Analytics)
 
 ### Visualizations Used
-    1. **Monthly Trends (Line Chart)**  
+    1. Monthly Trends (Line Chart)  
        - Loan Applications
        - Funded Amount
        - Amount Received
     
-    2. **Regional Analysis (Filled Map)**  
+    2. Regional Analysis (Filled Map)  
        - Metrics by State
     
-    3. **Loan Term Analysis (Donut Chart)**  
+    3. Loan Term Analysis (Donut Chart)  
        - 36 Months vs 60 Months
     
-    4. **Employee Length Analysis (Bar Chart)**
+    4. Employee Length Analysis (Bar Chart)
     
-    5. **Loan Purpose Breakdown (Bar Chart)**
+    5. Loan Purpose Breakdown (Bar Chart)
     
-    6. **Home Ownership Analysis (Tree Map)**
+    6. Home Ownership Analysis (Tree Map)
 
 ---
 
@@ -101,7 +101,9 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 ##  Dashboard Screenshots
 | Summary | Overview | Details |
 |-------|---------|--------|
-| ![](dashboards/dashboard_screenshots/dashboard_summary.png) | ![](dashboards/dashboard_screenshots/dashboard_overview.png) | ![](dashboards/dashboard_screenshots/dashboard_details.png) |
+| [Summary_Powerbi](04_dashboard/PowerBI_dashboard/screenshot/summary_powerbi.png) | [Overview_Powerbi](04_dashboard/PowerBI_dashboard/screenshot/overview_powerbi.png) | [Details_Powerbi](04_dashboard/PowerBI_dashboard/screenshot/details_powerbi.png) |
+| [Summary_Excel](04_dashboard/Excel_dashboard/screenshot/summary_excel.png) | [Overview_Excel](04_dashboard/Excel_dashboard/screenshot/overview_excel.png) |
+
 
 ---
 
