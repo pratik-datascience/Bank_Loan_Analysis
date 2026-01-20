@@ -32,18 +32,18 @@ The objective is to analyze key loan metrics, track trends over time, evaluate p
 ## ✅ Good Loan vs ❌ Bad Loan Analysis
 
 ### Good Loans
-- Loan Status: `Fully Paid`, `Current`
-- KPIs:
-  - Good Loan Application %
-  - Good Loan Funded Amount
-  - Good Loan Amount Received
+    - Loan Status: `Fully Paid`, `Current`
+    - KPIs:
+      - Good Loan Application %
+      - Good Loan Funded Amount
+      - Good Loan Amount Received
 
 ### Bad Loans
-- Loan Status: `Charged Off`
-- KPIs:
-  - Bad Loan Application %
-  - Bad Loan Funded Amount
-  - Bad Loan Amount Received
+    - Loan Status: `Charged Off`
+    - KPIs:
+      - Bad Loan Application %
+      - Bad Loan Funded Amount
+      - Bad Loan Amount Received
 
 ---
 
@@ -62,22 +62,22 @@ A detailed table segmented by **Loan Status** displaying:
 ## 📉 Dashboard 2: Overview (Visual Analytics)
 
 ### Visualizations Used
-1. **Monthly Trends (Line Chart)**  
-   - Loan Applications
-   - Funded Amount
-   - Amount Received
-
-2. **Regional Analysis (Filled Map)**  
-   - Metrics by State
-
-3. **Loan Term Analysis (Donut Chart)**  
-   - 36 Months vs 60 Months
-
-4. **Employee Length Analysis (Bar Chart)**
-
-5. **Loan Purpose Breakdown (Bar Chart)**
-
-6. **Home Ownership Analysis (Tree Map)**
+    1. **Monthly Trends (Line Chart)**  
+       - Loan Applications
+       - Funded Amount
+       - Amount Received
+    
+    2. **Regional Analysis (Filled Map)**  
+       - Metrics by State
+    
+    3. **Loan Term Analysis (Donut Chart)**  
+       - 36 Months vs 60 Months
+    
+    4. **Employee Length Analysis (Bar Chart)**
+    
+    5. **Loan Purpose Breakdown (Bar Chart)**
+    
+    6. **Home Ownership Analysis (Tree Map)**
 
 ---
 
